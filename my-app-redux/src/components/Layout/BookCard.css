@@ -1,0 +1,138 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.imgSize {
+  height: auto;
+  max-width: 100px;
+  vertical-align: middle;
+  background-color:#3d0c02;
+}
+.imgSizeDetail {
+  height: auto;
+  max-width: 400px;
+  vertical-align: middle;
+  background-color:#3d0c02;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.cards_item {
+  display: flex;
+  padding: 0.5rem;
+  margin-left:360px;
+  
+  
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+@media all and (min-width: 468px) {
+.card {
+  background-color:#3d0c02;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  /* flex-direction: column; */
+  overflow: hidden; 
+  padding: 30px;
+  width: 23rem !important;
+} 
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #3d0c02 40%, #3d0c02 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;  
+  /* letter-spacing: 1px;
+  text-transform: capitalize; */
+  /* margin: 0px; */
+}
+
+.card_text {
+  color: #ffffff;
+  /* font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;     */
+  font-weight: 300;
+}
+
+.card_content_detail
+{
+  width:1000px;
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #3d0c02 40%, #3d0c02 100%);
+}
+.cards_item_detail {
+  display: flex;
+  padding: 0.5rem;
+margin-top:20px;
+  background-color:#3d0c02;
+  
+}
+.card_detail {
+  background-color:#3d0c02;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  /* flex-direction: column; */
+  overflow: hidden; 
+  padding: 30px;
+  
+} 
+}
